@@ -10,7 +10,7 @@ if(isset($_POST['submit']))
 {
   $_SESSION['time'] = $_POST['time']; 
   $_SESSION['message'] = $_POST['message']; 
-  $_SESSION['totalmessage'] = "your request is processed for" .$_SESSION['time'] ."hours and desc: ". $_SESSION['message'] ;
+  $_SESSION['totalmessage'] = "My device request is for" .$_SESSION['time'] ."hours and desc: ". $_SESSION['message'] ;
   header("location:requestMail.php");
 }
 
