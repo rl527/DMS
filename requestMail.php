@@ -34,7 +34,7 @@ $mail->AddAddress($mailto);
 
 if($mail->Send()){
      echo '<script language="javascript" type="text/javascript"> 
-              alert("Your request has been received and you will get mail soon!!!!!");
+              alert("Your request has been received and you will get device soon!!!!!");
               window.location = "userdashboard.php";
               </script>';
         }
