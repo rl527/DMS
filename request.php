@@ -26,7 +26,7 @@ if(isset($_POST['submit']))
 </head>
 <body>
   <form action='request.php' method="POST">
-    TIME: <select required="required">
+    TIME: <select required="required" name="time">
             <option value=''>REQUIRED TIME</option>
             <option value='1'>One hour</option>
             <option value='2'>Two hours</option>
