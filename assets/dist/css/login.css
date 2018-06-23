@@ -1,0 +1,78 @@
+.container {
+    padding: 16px;
+    
+}
+button {
+    background-color: #2C3E50;
+    color: white  !important;
+    
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+     color: white;
+    font-size: 22px;
+
+}
+.container {
+    padding: 16px;
+}
+/*IMPORTANT*/
+input[type=email], input[type=password], input[type=text]  {
+    
+    padding: 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 300px;;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+img{
+      height: 326px;
+    width: 326px;
+    background-color: white;
+}
+button:hover {
+    opacity: 0.8;
+
+}
+/*form {border: 3px solid #2C3E50;
+		background-color: #18BC9C;
+  }
+*/
+		footer {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  background-color: #1a252f;
+  color: #fff;
+}
+label{
+  display: block !important;
+}
+#login{
+  /*border: 2px solid #2C3E50;
+}*/
+}
+#signup{
+   /*border: 2px solid #2C3E50;*/
+}
+body{
+  background: #3F8CBB !important;
+  font-family: 'IBM Plex Serif', serif;
+}
+#display{
+  color: green;
+  font-weight:700; 
+}

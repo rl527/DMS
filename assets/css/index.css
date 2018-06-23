@@ -1,0 +1,132 @@
+/* CSS FOR INDEX FILE */
+  .row.content {height: 991px}
+    
+  .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+        
+  @media screen and (max-width: 767px) {
+    .row.content {height: auto;} 
+  }
+  table
+  {
+  width:30%;
+  text-align: center; 
+  border-collapse: collapse;  
+  overflow: hidden;
+  }
+  table th
+  {
+    background-color: lightgrey;
+    text-align: center;
+  }
+  .logo img{
+      width: 190px;
+    
+      margin-top: -19px;
+  }
+  .imgcard{
+    width: 200px;
+  }
+  .error {
+    width: 90%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    margin-left: 70px;
+   
+  }
+  .success {
+    color: #000000; 
+    background: #929292; 
+    border: 1px solid #000000;
+    margin-bottom: 20px;
+  }
+  h3
+  {
+    text-align: center;
+    font-size: 20px;
+  }
+  li a
+  {
+    font-size: 18px;
+    padding: 3px;
+  }
+  p label{
+    color: #367cb3;
+  }
+  span,i
+  {
+    padding-left: 6px;
+  }
+  .fa
+  {
+    font-size: 20px;
+  }
+  .btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: rgb(180, 180, 180);
+    border: none;
+    border-radius: 5px;
+  }
+  .box a
+  {
+    color: white;
+    text-decoration: none;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    height: 60%;
+    color: black;
+    overflow: hidden;
+  }
+  .card ul
+  {
+    list-style-type:none; 
+    padding: 0px;
+    
+    background-color: #007CB3;
+
+  }
+  .card li
+  {
+
+    display:inline-block;
+    text-decoration:none;
+
+  }
+  .card ul li a{
+  color:#fff;
+  display:block;
+  text-decoration:none;
+  padding:12px;
+  }
+  .title {
+    color: black;
+    font-size: 15px;
+  }
+  #myModal
+  {
+    text-align: center;
+  }
+
+  .pagination
+  {
+    
+   float: right;
+  }
+  .card img
+  {
+     border-radius: 90px;
+      height: 160px;
+      width: 160px;
+  }

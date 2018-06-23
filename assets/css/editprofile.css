@@ -1,0 +1,109 @@
+/* css for editprofile page in user-dashboard */
+
+body h1
+{
+	text-align: center;
+}
+p{
+	color: red;
+}
+.col-md-9 h2
+{
+	padding:20px;
+	margin-left: 30%;
+	
+}
+.image{
+
+	height: 180px;
+	width :180px;
+}
+
+.btn-login {
+	background-color: #59B2E0;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #59B2E6;
+}
+.btn-login:hover,
+.btn-login:focus {
+	color: #fff;
+	background-color: #53A3CD;
+	border-color: #53A3CD;
+}
+
+
+.btn-register {
+	background-color: #1CB94E;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #1CB94A;
+}
+.btn-register:hover,
+.btn-register:focus {
+	color: #fff;
+	background-color: #1CA347;
+	border-color: #1CA347;
+}
+
+#checker{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    cursor: pointer;
+}
+
+#PicUpload{
+    width: 150px;
+    height: 180px;
+    padding: 140px 430px;
+    position: absolute;
+    left: 1.5%;
+    border-radius: %;
+    display: none;
+    top:1px;
+}
+.camera{
+    font-size: 50px;
+    color: #333;
+
+}
+
+.Profile-input-file{
+    height:180px;
+    width:180px;
+    left:33%;
+    position: absolute;
+    top: 0px;
+    z-index: 999;
+    opacity: 0 !important;
+}
+.container
+{
+    margin-top: 6%;
+    background-color: #007CB3; 
+    height: 100%;
+    width: 60%;
+    color: white;
+
+}
+select
+{
+	color: black;
+}
+img
+{
+   border-radius: 90px;
+    height: 160px;
+    width: 160px;
+}
